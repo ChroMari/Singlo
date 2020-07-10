@@ -1,3 +1,6 @@
+body {
+  font-family: 'Lato', sans-serif;
+}
 .container {
   max-width: 1020px;
   margin: 0 auto;
@@ -5,4 +8,56 @@
 
 .header {
   background-color: #2d303a;
+  border-bottom: 5px solid #323746;
+}
+
+.header-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 31px 40px;
+}
+
+.logo {
+  margin-top: -5px;
+}
+
+.logo h1 {
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 0px;
+  color: #ffffff;
+}
+.logo h1 span {
+  color: #f06c64;
+}
+
+.navbar {
+  margin-top: 8px;
+}
+
+.navbar a {
+  font-weight: bold;
+  font-size: 12px;
+
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #ffffff;
+
+  position: relative;
+}
+
+.navbar a + a {
+  padding-left: 25px;
+}
+
+.navbar a + a::before {
+  content: "·";
+  position: absolute;
+  color: #494e62;
+  left: 8px;
+  top: 1px;
+}
+
+a.active {
+  color: #f06c64;
 }
