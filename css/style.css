@@ -61,3 +61,41 @@ body {
 a.active {
   color: #f06c64;
 }
+
+.slider {
+  background-color: #f06c64;
+  border-bottom: 10px solid #ea676b;
+}
+
+.slider__inner {
+  position: relative;
+}
+.next::before {
+  content: url(../assets/img/next.png);
+  top: 48%;
+  position: absolute;
+  left: 42px;
+  cursor: pointer;
+}
+.next::after {
+  content: url(../assets/img/next2.png);
+  top: 48%;
+  position: absolute;
+  right: 4%;
+  cursor: pointer;
+}
+
+.slider__item{
+  padding-top: 53px;
+  padding-left: 110px;
+  padding-bottom: 56px;
+}
+
+.slider__item img {
+  display: inline;
+  vertical-align: middle;
+}
+
+.slider__item img + img {
+  padding-left: 73px;
+}
