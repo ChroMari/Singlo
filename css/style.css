@@ -4,6 +4,7 @@ body {
 .container {
   max-width: 1020px;
   margin: 0 auto;
+  padding: 0 40px;
 }
 
 .header {
@@ -98,4 +99,56 @@ a.active {
 
 .slider__item img + img {
   padding-left: 73px;
+}
+
+.services {
+  background-color: #f2f2f2;
+}
+
+.services-title {
+  font-weight: 700;
+  font-size: 30px;
+  color: #666d89;
+  padding: 60px 0 20px 40px;
+  margin: 0;
+}
+
+.services-text {
+  font-weight: lighter;
+  font-size: 18px;
+  line-height: 28px;
+  color: #767e9e;
+  padding: 0 14px 48px 40px;
+  margin: 0;
+}
+
+.services__items {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 40px;
+}
+
+.services__item {
+  display: flex;
+  width: 30%;
+  align-items: flex-start;
+  margin-right: 26px;
+  margin-bottom: 32px;
+}
+
+.content-title {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 700;
+  color: #666d89;
+  padding: 0 0 10px 21px;
+}
+
+.content-text {
+  margin: 0;
+  font-size: 12px;
+  font-weight: 400;
+  color: #767e9e;
+  padding-left: 21px;
+  line-height: 20px;
 }
