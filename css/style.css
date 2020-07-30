@@ -2,7 +2,7 @@ body {
   font-family: 'Lato', sans-serif;
 }
 .container {
-  max-width: 1020px;
+  max-width: 940px;
   margin: 0 auto;
   padding: 0 40px;
 }
@@ -15,7 +15,7 @@ body {
 .header-row {
   display: flex;
   justify-content: space-between;
-  padding: 31px 40px;
+  padding: 31px 0;
 }
 
 .logo {
@@ -75,20 +75,20 @@ a.active {
   content: url(../assets/img/next.png);
   top: 48%;
   position: absolute;
-  left: 42px;
+  left: 3px;
   cursor: pointer;
 }
 .next::after {
   content: url(../assets/img/next2.png);
   top: 48%;
   position: absolute;
-  right: 4%;
+  right: 0;
   cursor: pointer;
 }
 
 .slider__item{
   padding-top: 53px;
-  padding-left: 110px;
+  padding-left: 72px;
   padding-bottom: 56px;
 }
 
@@ -109,7 +109,7 @@ a.active {
   font-weight: 700;
   font-size: 30px;
   color: #666d89;
-  padding: 60px 0 20px 40px;
+  padding: 60px 0 20px 0;
   margin: 0;
 }
 
@@ -118,22 +118,25 @@ a.active {
   font-size: 18px;
   line-height: 28px;
   color: #767e9e;
-  padding: 0 14px 48px 40px;
+  padding: 0 0 48px 0;
   margin: 0;
 }
 
 .services__items {
   display: flex;
   flex-wrap: wrap;
-  padding-left: 40px;
 }
 
 .services__item {
   display: flex;
-  width: 30%;
+  width: 31%;
   align-items: flex-start;
-  margin-right: 26px;
+  margin-right: 29px;
   margin-bottom: 32px;
+}
+
+.services__item:nth-child(3n) {
+  margin-right: 0;
 }
 
 .content-title {
