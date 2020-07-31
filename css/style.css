@@ -108,7 +108,7 @@ a.active {
   border-bottom: 5px solid #ffffff;
 }
 
-.services-title, .portfolio-title, .about-title {
+.services-title, .portfolio-title, .about-title, .getform-title {
   font-weight: 700;
   font-size: 30px;
   color: #666d89;
@@ -116,7 +116,7 @@ a.active {
   margin: 0;
 }
 
-.services-text, .portfolio-text, .about-text {
+.services-text, .portfolio-text, .about-text, .getform-text {
   font-weight: lighter;
   font-size: 18px;
   line-height: 28px;
@@ -245,4 +245,117 @@ li, ul {
 }
 .about-socials img {
   margin-right: 5px;
+}
+
+.getform {
+  background-color: #f06c64;
+  padding-bottom: 63px;
+  border-bottom: 5px solid #ea676b;
+  color: #f0d8d9;
+  font-size: 12px;
+}
+
+.getform-title, .getform-text {
+  color: #f0d8d9;
+}
+
+.getform-row {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.getform-from input{
+  display: block;
+  width: 96%;
+  margin-right: 10px;
+  color: #f48c8f;
+  padding: 11px 0 11px 14px;
+  margin-bottom: 20px;
+  border: none;
+  background-color: #d6564f;
+  border-radius: 5px;
+}
+
+.getform-from input::placeholder,  textarea::placeholder {
+  color: #f0d8d9;
+}
+
+textarea {
+  height: 193px; /* Высота поля в пикселах */
+  resize: none;
+  width: 96%;
+
+  border: none;
+  background-color: #d6564f;
+  border-radius: 5px;
+  color: #f48c8f;
+  padding: 7px 0 0 14px;
+}
+
+input[type='submit'] {
+  display: none;
+}
+
+.getform-info {
+  margin-left: 13px;
+}
+.getform-info__title {
+  margin: 0px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.getform-info__text {
+  margin: 0;
+  margin-top: 10px;
+  font-size: 12px;
+  line-height: 21px;
+}
+
+.getform-info__adress {
+  margin: 0;
+  margin-top: 26px;
+  color: #f0d8d9;
+  margin-left: 2px;
+  margin-bottom: 8px;
+}
+
+.fa {
+  margin-right: 11px;
+}
+
+.getform-info a {
+  text-decoration: none;
+  display: block;
+  color: #f0d8d9;
+  margin-bottom: 10px;
+}
+
+.footer {
+  background-color: #2d303a;
+  border-bottom: 5px solid #323746;
+  padding-bottom: 16px;
+}
+
+.footer-text {
+  margin: 0;
+  color: #666d89;
+  font-size: 12px;
+}
+
+.footer-row {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 31px;
+}
+
+.about-socials.footers {
+  margin: 0;
+  margin-left: 3px;
+  margin-top: -11px;
+}
+
+.about-socials.footers img {
+  margin-left: -2px;
+  cursor: pointer;
 }
